@@ -1,5 +1,5 @@
 # code-plantpedia-api
-Simple CRUD application for Pokemon using NodeJs and ExpressJs
+Simple CRUD application for Plant information using NodeJs and ExpressJs
 
 This is a private repo because we want our students to write the code themselves as much as possible. Only the coaches have access to private repos in this GitHub organisation.
 
