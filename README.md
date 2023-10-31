@@ -2,7 +2,7 @@
 
 ### The goal of this project is to practice working with Node/JavaScript and ExpressJS framework, creating a simple CRUD API.
 
-We will use Node, ExpressJS, and JavaScript for our project. This project is for students who want to learn how to do http requests, and we will be using [Postman](https://github.com/CodeWomen-Barcelona/plantpedia-api/blob/main/README.md#postman) for testing our API.
+We will use Node, ExpressJS, and JavaScript for our project. This project is for students who want to learn how to do http requests, and we will be using [Postman](https://github.com/Projects-for-coding-women/project-plantpedia-api/blob/main/README.md#postman) for testing our API.
 
 **Basic functionality:** we want to create an API for information about plants. CRUD stands for:
 
@@ -117,7 +117,7 @@ app.get('/', (req, res) => {
 ```
 
 2. Run the application `node server.js` and open Postman (see
-   postman [instructions](https://github.com/CodeWomen-Barcelona/plantpedia-api/blob/main/README.md#postman) below) hit send, and you should see this:
+   postman [instructions](https://github.com/Projects-for-coding-women/project-plantpedia-api/blob/main/README.md#postman) below) hit send, and you should see this:
    <img width="900" alt="Screenshot 2021-10-16 at 13 12 34" src="https://user-images.githubusercontent.com/28566169/137585277-26be6845-a222-403c-b75e-95bdb8fc3c6c.png">
    
    
@@ -202,7 +202,7 @@ app.delete
 ![Screenshot 2021-10-16 at 13 08 32](https://user-images.githubusercontent.com/28566169/137585043-45f0c793-7ed2-4e3d-ba7c-0dff1a9dc21d.png)
 4. You can start by click the `+` (plus sign) to add a new request
 <img width="900" alt="Screenshot 2021-10-16 at 13 11 03" src="https://user-images.githubusercontent.com/28566169/137585056-76270b5f-8269-4b6e-bf39-1f133848e2cf.png">
-5. Enter request url and hit `SEND` (you will see this once done the [GET exercise](https://github.com/CodeWomen-Barcelona/project-plantpedia-api#get-all-plants-exercise))
+5. Enter request url and hit `SEND` (you will see this once done the [GET exercise](https://github.com/Projects-for-coding-women/project-plantpedia-api#get-all-plants-exercise))
 <img width="900" alt="Screenshot 2021-10-16 at 13 12 34" src="https://user-images.githubusercontent.com/28566169/137585277-26be6845-a222-403c-b75e-95bdb8fc3c6c.png">
 
 ---
@@ -210,14 +210,10 @@ app.delete
 ## Please note:
 If you want to download a project on your local machine, do not fork it but clone the repo locally, on your computer. After that, create a new repo in your own GitHub account *with exactly the same project name*, and link the local repo to the remote repo in your GitHub account (see below). Why should you clone and not fork? It will show the project as **your own project** and not a fork of someone else's project. You can use it as a project for your portfolio.
 
-You can connect a local project to a new, empty GitHub repo [as follows](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line). We can do this together during a CodeWomen coding session: it is very good to know this so that you can start a project locally and afterwards link it with a remote GitHub repo.
+You can connect a local project to a new, empty GitHub repo [as follows](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line). It is very good to know this so that you can start a project locally and afterwards link it with a remote GitHub repo.
 
-If you clone the project without forking it, you will have to change the 'remote origin' repository after cloning. Check the remote of your local project using `git remote -v`. You will probably see:  
-`origin  https://github.com/CodeWomen-Barcelona/some-codewomen-project.git (fetch)`  
-`origin  https://github.com/CodeWomen-Barcelona/some-codewomen-project.git (push)`
+If you clone the project without forking it, you will have to change the 'remote origin' repository after cloning. Check the remote of your local project using `git remote -v`. 
 
 To link your local project to your own GitHub repo, you need to change the remote origin. Have a look at this article: https://devconnected.com/how-to-change-git-remote-origin/. With `git remote -v` you can again check if remote origin has been reset and now shows the name of your GitHub account.
-
-PS: if you work for a company that has a corporate social responsibility policy and wants to support women in tech, then here is the link to the [fundraising overview of MigraCode](https://docs.google.com/spreadsheets/d/1Zs-Mmi39bcjVw2U-iEQWSHSjkb-EmET-j1WB2oJF45Q/edit#gid=0).
 
 ---
